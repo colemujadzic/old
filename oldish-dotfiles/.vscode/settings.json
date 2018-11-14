@@ -1,0 +1,6 @@
+{
+    "telemetry.enableTelemetry": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "workbench.colorTheme": "Night Owl",
+    "editor.fontSize": 13
+}

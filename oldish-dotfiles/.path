@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# homebrew path
+export PATH="/usr/local/bin:${PATH}"
+
+# use updated coreutils with their default names
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# use findutils with their default names
+export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+
+# use gnu-tar with default name
+export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+
+# use gnu-sed with default name
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# go path
+export GOPATH="${HOME}/.go"
+
+# add go path
+export PATH="/usr/local/go/bin:${GOPATH}/bin:${PATH}"
